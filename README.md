@@ -1,4 +1,4 @@
 JniGradle
 =========
 
-A "Note to myself" project to remember how to use NDK with Gradle/Android Studio.
+A "Note to myself" Android project to remember how to use NDK with Gradle and Android Studio.
