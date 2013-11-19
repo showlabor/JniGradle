@@ -21,10 +21,8 @@ import com.example.hellojni.HelloJni;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView tv = (TextView) findViewById(R.id.textView);
-        tv.setText("Hallo Felix");
-
         HelloJni wrapper = new HelloJni();
+        TextView tv = (TextView) findViewById(R.id.textView);
         tv.setText(wrapper.stringFromJNI());
     }
 
